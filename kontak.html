@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Css Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+
+  <!-- Css Eksternal -->
+  <link rel="stylesheet" href="assets/css/style-navbar.css" />
+  <link rel="stylesheet" href="assets/css/style-contact.css" />
+  <link rel="stylesheet" href="assets/css/style-footer.css" />
+
+  <!-- Font -->
+  <link href="http://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet" />
+
+  <title>Kontak</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img id="logo" alt="Logo" src="assets/img/1640153664987.png" width="65" height="65" />
+      <span>Jalan Cantik<b>DPU Bina Marga dan Cipta Karya <br />
+          Provinsi Jawa Tengah</b></span>
+    </a>
+
+    <!-- Toggler.collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang.html">Tentang Jalan Cantik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Laporan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="download.html">Download</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Kontak</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-warning tombol" href="login.html">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Content -->
+  <div class="wrapper">
+    <div class="contact-form">
+      <h1>Kontak Kami</h1>
+      <div class="row contact">
+        <div class="col">
+          <div class="input-fields">
+            <input type="text" id="name" placeholder="Nama" required />
+            <input type="email" id="email" placeholder="Masukkan Email" required />
+          </div>
+          <div class="msg">
+            <textarea name="" id="comments" cols="30" rows="10" placeholder="Masukkan atau saran" required></textarea>
+          </div>
+          <input class="btn btn-primary tombol2" type="submit" value="Kirim">
+        </div>
+        <div class="col">
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.407244413615!2d110.39881196861367!3d-6.961192959478573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2e9aab67c0b9195!2sDinas%20PU%20Bina%20Marga%20dan%20Cipta%20Karya%20Provinsi%20Jawa%20Tengah!5e0!3m2!1sen!2sid!4v1642731593139!5m2!1sen!2sid"
+              style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="contact2">
+        <h2>Kantor Kami</h2>
+        <div class="row">
+          <div class="col ket d-flex align-items-center justify-content-center">
+            <img src="assets/img/icon/location.svg" alt="" width="30" height="30">
+            <p>Alamat: Jl. Madukoro Blok AA-BB, Semarang 50144</p>
+          </div>
+          <div class="col ket d-flex align-items-center justify-content-center">
+            <img src="assets/img/icon/call.svg" alt="" width="30" height="30">
+            <p>Telepon:(024) 7608368 Faksimil. (024) 7613181</p>
+          </div>
+          <div class="col ket d-flex align-items-center justify-content-center">
+            <img src="assets/img/icon/email.svg" alt="" width="30" height="30">
+            <p>
+              Email: dpubinmarcipka@jatengprov.go.id
+              dpubmckjateng@yahoo.com
+            </p>
+          </div>
+        </div>
+        <!-- <div class="info-wrap bg-primary w-100 p-lg-5 p-4">
+          <h3 class="mb-4 mt-md-4">Contact us</h3>
+          <div class="dbox w-100 d-flex align-items-start">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-map-marker"></span>
+            </div>
+            <div class="text pl-3">
+              <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-phone"></span>
+            </div>
+            <div class="text pl-3">
+              <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-paper-plane"></span>
+            </div>
+            <div class="text pl-3">
+              <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+            </div>
+          </div>
+          <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+              <span class="fa fa-globe"></span>
+            </div>
+            <div class="text pl-3">
+              <p><span>Website</span> <a href="#">yoursite.com</a></p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <!-- End Content -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+        <h5 class="jalancantik-footer">Jalan Cantik<span></span></h5>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget subscribe no-box">
+              <h5 class="widget-title">Twitter Pengaduan & Informasi<span></span></h5>
+              <a class="twitter-timeline" data-lang="id" data-width="500" data-height="400" data-theme="dark"
+                href="https://twitter.com/dpubmckjateng?ref_src=twsrc%5Etfw">Tweets by dpubmckjateng</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Informasi<span></span></h5>
+              <ul class="thumbnail-widget">
+                <li>
+                  <div class="thumb-content"><a href="#.">Tentang Jalan Cantik</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Download</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">Kritik & Saran</a></div>
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="#.">DPU Binmarcipka Jawa Tengah</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">DPU BMCK Jateng<span></span></h5>
+              <ul class="thumbnail-widget">
+                <li>
+                  <div class="thumb-content">Jl. Madukoro Blok AA-BB, Semarang 50144</div>
+                </li>
+                <li>
+                  <div class="thumb-content">(024) 7608368 Faksimil. (024) 7613181</div>
+                </li>
+                <li>
+                  <div class="thumb-content">dpubinmarcipka@jatengprov.go.id dpubmckjateng@yahoo.com
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title">Sosial Media<span></span></h5>
+              <ul class="social-footer2">
+                <li class=""><a title="youtube" target="_blank"
+                    href="https://www.youtube.com/channel/UCANpGuY0ULrrQluAdJ1o9Zw"><img alt="youtube" width="25"
+                      height="25" src="assets/img/icon/YouTube.png"></a>
+                </li>
+                <li class=""><a href="https://www.facebook.com/dpubmckjtg/" target="_blank" title="Facebook"><img
+                      alt="Facebook" width="25" height="25" src="assets/img/icon/Facebook.png"></a>
+                </li>
+                <li class=""><a href="https://twitter.com/dpubmckjateng" target="_blank" title="Twitter"><img
+                      alt="Twitter" width="25" height="25" src="assets/img/icon/Twitter.png"></a>
+                </li>
+                <li class=""><a title="instagram" target="_blank" href="https://www.instagram.com/dpubmckjateng/"><img
+                      alt="instagram" width="25" height="25" src="assets/img/icon/Instagram.png"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>© 2021. Dilindungi Hak Cipta | <a href="#.">DPU Bina Marga dan Cipta Karya Provinsi Jawa Tengah</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+</body>
+<!-- script JS-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<!-- End Script -->
+
+</html>

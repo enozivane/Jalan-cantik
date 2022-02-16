@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)),
+    url('../img/1640138964847.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+h1 {
+  font-family: "Berlin Sans FB Demi", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+.keterangan {
+  text-align: center;
+  padding: 10px;
+}
+
+.tentangjalan {
+  max-width: 1045px;
+  background: rgba(81, 81, 81, 0.9);
+  margin: 0 auto;
+  padding: 20px 40px;
+  color: white;
+  border-radius: 5px;
+  margin-top: 70px;
+  height: auto;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 819px;
+}
+
+.card {
+  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.6);
+  border: 0;
+}
+
+.content-bio {
+  padding: 20px;
+}
+
+.bio-jlcantik {
+  background: rgba(31, 28, 28, 0.8);
+  border-radius: 5px;
+  max-width: 819px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.bio-jlcantik img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-family: 'Poppins',
+    sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bio-jlcantik p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bio-content img {
+  float: right;
+  margin: 10px;
+}
+
+table tr {
+  color: white;
+}
+
+
+@media (min-width: 992px) {
+  .card {
+    max-width: 390.07px;
+    max-height: 436.85px;
+  }
+
+
+}

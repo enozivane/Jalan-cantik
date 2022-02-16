@@ -1,0 +1,267 @@
+@import url("http://fonts.cdnfonts.com/css/berlin-sans-fb-demi");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e3b68d;
+  /* height: 3000px; */
+}
+
+/* Ganti background */
+
+/* Jumbotron 1 */
+/* .awal {
+  background: url("../img/kantor_dinas_binamarga.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  position: relative;
+  z-index: -2;
+} */
+
+/* 
+.awal::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  bottom: 0;
+  box-shadow: inset 0px -786px 77px rgba(0, 0, 0, 0.5);
+} */
+
+.awal h1 {
+  font-family: "Berlin Sans FB Demi",
+    sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 0.2em;
+}
+
+.awal p {
+  font-family: "Poppins",
+    sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.awal button {
+  margin: 8px;
+  font-family: "Poppins",
+    sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 5px;
+}
+
+.text1 {
+  background-color: #fe6404;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 22px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.live-report {
+  background: linear-gradient(0deg,
+      rgba(255, 161, 86, 0.6),
+      rgba(255, 161, 86, 0.6)),
+    url("../img/1640138964761.jpg ");
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  /* background-size: cover; */
+  background-attachment: fixed;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-live {
+  background: #1d0332;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+.title-live {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.box-reportall {
+  margin-top: 40px;
+}
+
+.box-report {
+  background: #fefdde;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  height: 161px;
+}
+
+.box-report {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 50px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* .jlaporan {
+  background-image: url("../img/1640138964847.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.jlaporan {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background: #000000;
+}
+
+.text-jlaporan {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.text-1 {
+  align-items: center;
+  color: #fbeb02;
+}
+
+.text-2 {
+  align-items: center;
+  color: #ffffff;
+}
+
+.text2 {
+  background: #fffee0;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.data {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.laporan {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tombol2 {
+  font-family: "Poppins",
+    sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  background: #FBD12E;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 5px;
+}
+
+.text3 {
+  background: #ffa156;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 10px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box-text {
+  margin: auto;
+  bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+}
+
+.profile-card-2 {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+  .text1 {
+    width: 800px;
+  }
+
+  .text2 {
+    width: 686px;
+    height: 425px;
+  }
+
+  .title-live {
+    width: 343.75px;
+  }
+
+  .live-report {
+    width: 1012px;
+  }
+
+  .box-report {
+    width: 243px;
+  }
+
+  .jlaporan {
+    width: 400px;
+  }
+
+  .text3 {
+    width: 1012px;
+  }
+}

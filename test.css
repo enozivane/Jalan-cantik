@@ -1,0 +1,37 @@
+body {
+  background-color: #ECB467;
+  /* overflow-x: hidden; */
+}
+
+#road {
+  background-color: #565865;
+  width: 1045px;
+  height: 3421px;
+  border-left: 10px solid #ee0404;
+  border-right: 10px solid #ee0404;
+  /* margin: 40px 0 40px;
+  padding-top: 1px;
+  box-shadow: 0 0 2px 2px #888; */
+}
+
+#sides {
+  border: 10px solid #dbdbdb;
+  border-left: 0;
+  border-right: 0;
+  height: 182px;
+}
+
+#center {
+  position: relative;
+  top: -120px;
+  border: 5px dashed #dbdbdb;
+  animation: move 10s linear infinite;
+  right: 100%;
+  width: 200%;
+}
+
+@keyframes move {
+  to {
+    left: -100%;
+  }
+}
